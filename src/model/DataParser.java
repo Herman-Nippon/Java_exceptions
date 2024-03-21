@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class DataParser {
     private Data data;
-    public void ParseData(String input) {
+    public void parseData(String input) {
         this.data = new Data(input.split(" "));
         writeDataToFile();
     }

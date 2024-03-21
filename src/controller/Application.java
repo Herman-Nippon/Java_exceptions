@@ -15,7 +15,7 @@ public class Application {
             View.printMainMenu();
             String line = scanner.nextLine();
             if (line.equals("exit")) break;
-            parser.ParseData(line);
+            parser.parseData(line);
         }
         View.farewell();
     }
