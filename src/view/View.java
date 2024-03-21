@@ -16,7 +16,8 @@ public class View {
                 To close the program, enter "exit".
                 Please, enter the following data, split by spaces:
                 
-                Surname, Name, Patronymic, Date of birth, Telephone number (+7(xxx)xxx-xx-xx), Gender (m/f):
+                Surname, Name, Patronymic, Date of birth (dd.mm.yyyy), Telephone number (+7(xxx)xxx-xx-xx), Gender (m/f)
+                (entries must match the examples!)
                 """);
     }
 
