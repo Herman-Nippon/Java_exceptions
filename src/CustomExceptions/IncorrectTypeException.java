@@ -1,6 +1,5 @@
 package CustomExceptions;
 
-import java.text.ParseException;
 
 public class IncorrectTypeException extends IllegalArgumentException {
     public IncorrectTypeException(String type, String entry) {

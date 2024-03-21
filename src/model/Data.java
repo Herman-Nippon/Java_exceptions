@@ -3,10 +3,6 @@ package model;
 import CustomExceptions.IncorrectTypeException;
 import CustomExceptions.WrongAmountOfEntriesException;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class Data {
     private final int amountOfEntries = 6;
 
